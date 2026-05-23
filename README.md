@@ -11,7 +11,7 @@ AI-based employee attrition prediction system using Machine Learning and data an
 
 ## How to run
 
-1. Install dependencies with `pip install -r requirements.txt`
+1. Install dependencies with `pip install -r requirements.txt ` or `pip3 install -r requirements.txt`
 2. Place the IBM HR Attrition CSV in `data/` or upload it in the app sidebar
 3. Train the model artifacts with `python train.py --data data/WA_Fn-UseC_-HR-Employee-Attrition.csv`
 4. Launch the dashboard with `streamlit run app.py`
